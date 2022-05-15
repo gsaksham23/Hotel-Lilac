@@ -259,3 +259,77 @@ form button {
     display: none;
   }
 }
+@media screen and (max-width: 750px) {
+  #contact,
+  #reservation {
+    grid-template-columns: 1fr;
+  }
+  .g__img-container {
+    width: 10rem;
+    height: 10rem;
+  }
+  .menu__card-container {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.8rem;
+  }
+  .m__img-container {
+    height: 6rem;
+    width: 10rem;
+    position: relative;
+    overflow: hidden;
+  }
+  .m__info {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    padding: 2rem;
+    background-color: #222;
+  }
+  .home {
+    grid-template-columns: 1fr;
+  }
+  .h__img-container {
+    display: none;
+  }
+}
+@media screen and (max-width: 730px) {
+  #contact,
+  #reservation {
+    grid-template-columns: 0.25fr;
+  }
+  .g__img-container {
+    width: 8rem;
+    height: 8rem;
+  }
+  .menu__card-container {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 0.25fr 0.25fr 0.25fr;
+    gap: 10.5rem;
+  }
+  .m__img-container {
+    height: 6rem;
+    width: 10rem;
+    position: relative;
+    overflow: hidden;
+  }
+  .m__info {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    padding: 2rem;
+    background-color: #222;
+  }
+  .home {
+    grid-template-columns: 0fr;
+  }
+  .h__img-container {
+    display: none;
+  }
+}
+
+
